@@ -1,0 +1,225 @@
+.bg-color-black {
+  background-color: black;
+}
+
+.bg-color-gradient {
+  background: rgb(62, 19, 150);
+  background: linear-gradient(0deg, rgb(62, 19, 150) 0%, rgb(114, 20, 190) 19%, rgb(185, 43, 174) 100%, rgb(207, 58, 163) 100%);
+}
+
+.bg-color-pink1 {
+  background-color: #CD82DF;
+}
+
+.bg-color-pink2 {
+  background-color: #B42DB7;
+}
+
+.bg-color-pink3 {
+  background-color: #8E12AB;
+}
+
+.bg-color-pink4 {
+  background-color: #6912A2;
+}
+
+.bg-color-pink5 {
+  background-color: #6912A2;
+}
+
+.bg-color-pink6 {
+  background-color: #941c96;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+@font-face {
+  font-family: "Inter-Thin";
+  src: url(font/Inter-Thin.ttf);
+}
+.inter-thin {
+  font-family: "Inter-Thin";
+}
+
+.inter-regular {
+  font-family: "Inter-Regular";
+}
+
+.inter-bold {
+  font-family: "Inter-Bold";
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.padd-20 {
+  padding: 20px;
+}
+
+.padd-10 {
+  padding: 10px 0 10px 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.ft-size-20 {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(font/Inter-Bold.ttf);
+}
+#navigation {
+  display: flex;
+  justify-content: space-between;
+}
+#navigation .empty {
+  width: 40%;
+}
+#navigation a {
+  text-decoration: none;
+}
+#navigation a:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+#banner {
+  width: 80%;
+}
+
+#bloc-projet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#bloc-projet .art-projet {
+  width: 30%;
+  border-radius: 20px;
+  margin: 20px;
+}
+#bloc-projet .art-projet h4 {
+  color: #d3a9de;
+}
+#bloc-projet .art-projet img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+#bloc-projet .art-projet .btn-discover {
+  text-decoration: none;
+  color: white;
+  background-color: #B42DB7;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}
+#bloc-projet .art-projet .btn-discover:hover {
+  font-weight: bold;
+}
+#bloc-projet .art-projet .center-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#contact #formulaire {
+  background-color: #B42DB7;
+  width: 50%;
+  border-radius: 20px;
+  padding: 20px;
+}
+#contact #formulaire .form-input {
+  display: flex;
+  flex-direction: column;
+}
+#contact #formulaire .form-input input, #contact #formulaire .form-input textarea {
+  width: 95%;
+  margin: 5px 20px 5px 20px;
+}
+
+.html {
+  width: 95%;
+  height: 20px;
+}
+
+.css {
+  width: 90%;
+  height: 20px;
+}
+
+.javascript {
+  width: 80%;
+  height: 20px;
+}
+
+.vuejs {
+  width: 75%;
+  height: 20px;
+}
+
+.angular {
+  width: 70%;
+  height: 20px;
+}
+
+.wordpress {
+  width: 87%;
+  height: 20px;
+}
+
+#parcours .all {
+  display: flex;
+  flex-direction: row;
+}
+#parcours .ines-dev {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+#parcours .auto-portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+#parcours section {
+  display: flex;
+  flex-direction: row;
+}
+#parcours section article {
+  width: 50%;
+}
+#parcours .CV-style {
+  color: #B42DB7;
+  text-decoration: none;
+  border: #B42DB7 solid 1.5px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
