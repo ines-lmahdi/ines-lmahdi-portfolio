@@ -11,7 +11,9 @@
 <body class="bg-color-black color-white inter-regular">
     <header>
         <nav id="navigation" class="inter-regular">
-            <div class="empty"></div>
+            <div class="empty">
+                <img src="/image/INES L.png" alt="logo IL" class="logo">
+            </div>
             <a href="#parcours" class="color-white"> À propos de moi</a>
             <a href="#projet" class="color-white"> Mes créations</a>
             <a href="#contact" class="color-white"> Me contacter</a>
@@ -32,30 +34,29 @@
             </p>
         </div>
         <div id="parcours">
-            <h2> À propos de moi</h2>
+            <div class="all">
+                <div class="image-ines">
+                    <img src="/image/CV.jpg" alt="auto-portrait" class="auto-portrait">
+                </div>
+                <div class="ines-dev">
+                    <h3 class="color-beige ft-size-20"> Inès Lmahdi</h3>
+                    <h4 class="color-beige ft-size-18"> Développeuse front-end</h4>
+                </div>
+            </div>
+            <article class="parcours-presentation">
+                <p class="txt-justify padd-20">Il y a un an et demi j'ai entrepris une reconversion professionnelle
+                    afin de devenir développeuse web. J'ai passé mon diplôme grâce à OpenClassRooms.
+                    Cette formation m'a permis de développer 7 projets: Front-End, Back-End et FullStack.
+                    J'ai également été initié SEO au référencement naturel d'un site.
+                    Accompagnée par un très bon mentor, j'ai pu progressé tout au long de
+                    cette formation et j'ai pu choisir ma voie: le front-end !
+                    En parallèlle de cette formation j'ai également pris des cours d'UX Designer grâce à OpenClassRooms,
+                    afin de me challenger et d'en apprendre plus sur les attentes visuelles des utilisateurs.
+                </p>
+            </article>
             <section>
-                <article class="parcours-presentation">
-                    <div class="all">
-                        <div class="image-ines">
-                            <img src="/image/autoportrait-carré.jpg" alt="auto-portrait" class="auto-portrait">
-                        </div>
-                        <div class="ines-dev">
-                            <h3> Inès</h3>
-                            <h4> Développeuse front-end</h4>
-                        </div>
-                    </div>
-                    <p class="txt-justify padd-20">Il y a un an et demi j'ai entrepris une reconversion professionnelle
-                        afin de devenir développeuse web. J'ai passé mon diplôme grâce à OpenClassRooms.
-                        Cette formation m'a permis de développer 7 projets: Front-End, Back-End et FullStack.
-                        J'ai également été initié SEO au référencement naturel d'un site.
-                        Accompagnée par un très bon mentor, j'ai pu progressé tout au long de
-                        cette formation et j'ai pu choisir ma voie: le front-end !
-                        En parallèlle de cette formation j'ai également pris des cours d'UX Designer grâce à OpenClassRooms,
-                        afin de me challenger et d'en apprendre plus sur les attentes visuelles des utilisateurs.
-                    </p>
-                </article>
                 <article class="parcours-competences">
-                    <h3> Mes compétences techniques</h3>
+                    <h4> Mes compétences techniques</h4>
                     <div class="skill">
                         <i class="fa-brands fa-html5 padd-10"> HTML 5</i>
                         <div class="fond white">
@@ -86,16 +87,52 @@
                             <div class="barre scale-up-hor-left vuejs bg-color-pink4"></div>
                         </div>
                     </div>
-                <div class="skill">
+                    <div class="skill">
                         <i class="fa-brands fa-angular padd-10"> Angular</i>
                         <div class="fond white">
                             <div class="barre scale-up-hor-left angular bg-color-pink5"></div>
                         </div>
                     </div>
                 </article>
+                <article>
+                    <div>
+                        <h4 class="txt-center">Ma personnalité</h4>
+                        <div class="parcours-perso">
+                            <div>
+                                <img src="/image/sourire.jpg" alt="sourire" class="passion">
+                                <p>Souriante</p>
+                            </div>
+                            <div>
+                                <img src="/image/ponctuelle.jpg" alt="ponctuelle" class="passion">
+                                <p>Ponctuelle</p>
+                            </div>
+                            <div>
+                                <img src="/image/sociable.jpg" alt="sociable" class="passion">
+                                <p>Sociable</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="txt-center">Mes passions</h4>
+                        <div class="parcours-perso">
+                            <div>
+                                <img src="/image/f1.webp" alt=" Image Formule 1" class="passion">
+                                <p> La formule 1</p>
+                            </div>
+                            <div>
+                                <img src="/image/aiguilles-tricot-crochets.jpg" alt="Image Tricot" class="passion">
+                                <p> Le tricot</p>
+                            </div>
+                            <div>
+                                <img src="/image/hp.jpg" alt=" Image Harry Potter" class="passion">
+                                <p>Harry Potter</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </section>
             <div class="flex-center">
-                <a href="ines_lmahdi_cv.pdf" class="CV-style"> Télécharger mon CV</a>
+                <a href="ines_lmahdi_cv.pdf" class="CV-style color-grey"> Télécharger mon CV</a>
             </div>
         </div>
         <div id="projet">
@@ -128,7 +165,7 @@
                     <p>EXMES est un site vitrine d'expertise médicale ferroviaire. <br>
                         C'est le premier site que j'ai réalisé de A à Z pour un client.</p>
                     <div class="center-btn">
-                        <a href="www.exmes.fr" class="btn-discover">Découvrir</a>
+                        <a href="http://www.exmes.fr" class="btn-discover">Découvrir</a>
                     </div>
                 </article>
                 <article class="art-projet">

@@ -8,27 +8,39 @@
 }
 
 .bg-color-pink1 {
-  background-color: #CD82DF;
+  background-color: #e784ac;
 }
 
 .bg-color-pink2 {
-  background-color: #B42DB7;
+  background-color: #e46fa7;
+}
+
+.bg-color-pink6 {
+  background-color: #e060a8;
 }
 
 .bg-color-pink3 {
-  background-color: #8E12AB;
+  background-color: #c042b8;
 }
 
 .bg-color-pink4 {
-  background-color: #6912A2;
+  background-color: #863ec7;
 }
 
 .bg-color-pink5 {
   background-color: #6912A2;
 }
 
-.bg-color-pink6 {
-  background-color: #941c96;
+.bg-color-beige {
+  background-color: #e4d9d2;
+}
+
+.bg-color-grey {
+  background-color: #3c3c3c;
+}
+
+.color-grey {
+  color: #3c3c3c;
 }
 
 .color-black {
@@ -37,6 +49,10 @@
 
 .color-white {
   color: white;
+}
+
+.color-beige {
+  color: #e4d9d2;
 }
 
 @font-face {
@@ -80,6 +96,10 @@
   font-size: 20px;
 }
 
+.ft-size-18 {
+  font-size: 18px;
+}
+
 @font-face {
   font-family: "Inter-Regular";
   src: url(font/Inter-Regular.ttf);
@@ -94,6 +114,9 @@
 }
 #navigation .empty {
   width: 40%;
+}
+#navigation .empty .logo {
+  width: 50px;
 }
 #navigation a {
   text-decoration: none;
@@ -192,9 +215,14 @@
   height: 20px;
 }
 
+#parcours {
+  margin: 10px;
+  padding: 15px;
+}
 #parcours .all {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #parcours .ines-dev {
   display: flex;
@@ -203,9 +231,15 @@
   padding: 20px;
 }
 #parcours .auto-portrait {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
+}
+#parcours .passion {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  object-fit: cover;
 }
 #parcours section {
   display: flex;
@@ -215,11 +249,16 @@
   width: 50%;
 }
 #parcours .CV-style {
-  color: #B42DB7;
   text-decoration: none;
-  border: #B42DB7 solid 1.5px;
+  background-color: #e4d9d2;
+  border: #e4d9d2 solid 2px;
   border-radius: 20px;
   padding: 10px;
+}
+#parcours .parcours-perso {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
